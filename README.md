@@ -2,9 +2,9 @@
 
 A local terminal dashboard for Codex, Claude Code, GitHub Copilot, and Google Antigravity quota windows. It shows color-coded finite-usage bars, explicit unlimited allowances, reset times, freshness, provider health, alerts, and bounded history on Windows, macOS, and Linux.
 
-[![Agent Usage Dashboard showing Claude, Codex, GitHub Copilot, and Google Antigravity quota windows in a terminal. Select to watch the 21-second video.](docs/images/poster.jpg)](docs/media/agent-usage-dashboard.mp4)
+[![Agent Usage Dashboard showing Claude, Codex, GitHub Copilot, and Google Antigravity quota windows in a terminal. Select to watch the 21-second video.](docs/images/poster.jpg)](https://youtu.be/9HnneSzqZnc)
 
-[Watch the 21-second video](docs/media/agent-usage-dashboard.mp4)
+[Watch the 21-second video](https://youtu.be/9HnneSzqZnc)
 
 Privacy is a design boundary. The dashboard itself neither asks for nor intentionally reads provider credential values. It has no credential flags or configuration fields and does not open provider authentication/configuration files, keychains, or browser storage. It does not log or persist passwords, API keys, OAuth/access/refresh tokens, or cookies. Codex and Copilot authentication stay inside provider-owned local runtimes; those trusted child processes may use their own keychains or inherited authentication environment.
 

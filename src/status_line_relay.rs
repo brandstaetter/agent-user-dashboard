@@ -194,6 +194,7 @@ fn resolve_program(program: &OsStr) -> OsString {
     }
 }
 
+#[cfg_attr(not(windows), allow(dead_code))]
 fn resolve_windows_program(program: &OsStr, path: &OsStr, path_ext: &OsStr) -> Option<OsString> {
     let requested = Path::new(program);
     if requested.components().count() > 1 || requested.is_absolute() {
@@ -475,7 +476,7 @@ fn main() {
         let found = resolve_windows_program(
             OsStr::new("npx"),
             temp.path().as_os_str(),
-            OsStr::new(".COM;.EXE;.BAT;.CMD"),
+            OsStr::new(".COM;.EXE;.BAT;.cmd"),
         );
 
         assert_eq!(
