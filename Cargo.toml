@@ -1,0 +1,28 @@
+[package]
+name = "agent-usage-dashboard"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.94"
+description = "A local dashboard for normalized AI coding-agent quota usage"
+license = "MIT"
+repository = "https://github.com/brandstaetter/agent-user-dashboard"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+ctrlc = "3.4"
+crossterm = "0.29"
+directories = "6.0"
+github-copilot-sdk = "=1.0.14"
+notify-rust = "4.11"
+ratatui = "0.30"
+rusqlite = { version = "0.40", features = ["bundled"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0", features = ["raw_value"] }
+thiserror = "2.0"
+time = { version = "=0.3.55", features = ["parsing"] }
+tokio = { version = "=1.53.1", features = ["rt", "time"] }
+toml = "1.1"
+uuid = { version = "1.18", features = ["v4"] }
+
+[dev-dependencies]
+tempfile = "3.20"

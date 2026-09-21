@@ -1,0 +1,11 @@
+# Rust build output
+/target/
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.swp
+*.tmp
