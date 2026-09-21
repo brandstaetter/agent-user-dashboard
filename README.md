@@ -191,5 +191,5 @@ MIT. See [LICENSE](LICENSE).
 ## Credits
 
 - Video: made with the [`/brag`](https://github.com/latent-spaces/brag) skill and rendered with [Hyperframes](https://hyperframes.heygen.com/).
-- Music: "Happy Beats / Business Moves, Vol. 11" from [ende.app](https://ende.app/en).
+- Music: "Happy Beats / Business Moves, Vol. 11" by Sascha Ende ([ende.app](https://ende.app/en)), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 - Sound effects: [Kenney](https://kenney.nl/) (CC0).
